@@ -123,7 +123,7 @@ confirmation(data: any) {
 
 // delete user
 public deleteUser() {
-return this.http.delete('https://niftyfiftytraders.com/api/user/${this.id}').subscribe(
+return this.http.delete(`https://niftyfiftytraders.com/api/user/${this.id}`).subscribe(
 (res) => {
   this.getUser();
   console.log(res);
