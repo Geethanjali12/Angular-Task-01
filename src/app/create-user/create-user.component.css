@@ -1,0 +1,21 @@
+#form1{
+    max-width: 60%;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#btn1,#btn2, #btn3{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#form2{
+    border: 2px solid grey;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
