@@ -1,4 +1,31 @@
-body {
+  .mat-form-field {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-right: 100px;
+  }
+  .button-wrapper {
+    width: 30%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+    
+.mat-card{
+    margin: 50px;
+    padding : 80px 350px;
+
+}
+  
+
+
+/* body {
     background-color: #000
 }
 
@@ -58,4 +85,4 @@ body {
 
 .form button {
     margin-top: 20px
-}
+} */
