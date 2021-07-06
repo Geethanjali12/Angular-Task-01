@@ -20,19 +20,22 @@ import {MatIconModule} from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatTableModule} from '@angular/material/table';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateUserComponent,
     LoginComponent,
-    RegisterComponent    
+    RegisterComponent,
+    TableComponent    
   ],
   imports: [
     BrowserModule,
@@ -57,7 +60,7 @@ import { RegisterComponent } from './register/register.component';
     FlexLayoutModule,
     MatNativeDateModule,
     MatSidenavModule,
-    
+    MatTableModule
 
   ],
   providers: [
