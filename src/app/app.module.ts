@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
@@ -32,8 +32,7 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
     CreateUserComponent,
     LoginComponent,
-    RegisterComponent,
-    
+    RegisterComponent    
   ],
   imports: [
     BrowserModule,
@@ -57,10 +56,14 @@ import { RegisterComponent } from './register/register.component';
     MatDatepickerModule,
     FlexLayoutModule,
     MatNativeDateModule,
-    MatSidenavModule
+    MatSidenavModule,
+    
+
   ],
   providers: [
 ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+
 })
 export class AppModule { }
