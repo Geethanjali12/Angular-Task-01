@@ -8,15 +8,20 @@
 
       <mat-card-content>
         <mat-form-field class="example-full-width">
-          <input matInput placeholder="Username">
-        </mat-form-field>
+          <mat-label>Enter your username</mat-label>
+          <input matInput placeholder="username" [formControl]="username" required>
+          <mat-error *ngIf="username.invalid">{{getErrorMessage()}}</mat-error></mat-form-field>
 
         <mat-form-field class="example-full-width">
-          <input matInput placeholder="Email">
-        </mat-form-field>
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pat@example.com" [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+              </mat-form-field>
 
         <mat-form-field class="example-full-width">
-          <input matInput placeholder="Password">
+          <mat-label>Enter your password</mat-label>
+          <input matInput placeholder="password" [formControl]="password" required>
+          <mat-error *ngIf="password.invalid">{{getErrorMessage()}}</mat-error>
           <input matInput [type]="hide ? 'Password' : 'text'">
           <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
             <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
