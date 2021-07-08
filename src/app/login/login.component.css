@@ -105,5 +105,13 @@ body {
 .main-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
 	padding: 0.8375em 0;
 }
-
-
+.mat-card-title{
+	padding: 25px;
+}
+.mat-card-content{
+	padding:5px;
+}
+.mat-card{
+	width: 150%;
+	height: 55%;
+}

@@ -107,3 +107,16 @@ body {
 	padding: 0.8375em 0;
 }
 
+.mat-card-title{
+	padding: 15px;
+}
+.mat-label{
+	padding:10px;
+}
+.mat-card-content{
+	padding:5px;
+}
+.mat-card{
+	width: 150%;
+	height: 55%;
+}

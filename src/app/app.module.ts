@@ -21,6 +21,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -60,7 +61,8 @@ import { TableComponent } from './table/table.component';
     FlexLayoutModule,
     MatNativeDateModule,
     MatSidenavModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule
 
   ],
   providers: [

@@ -3,9 +3,9 @@
     width: 100%;
     padding: 20px 20px 20px 20px;
     margin: auto;
-    border: 2px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    border: 2px ridge;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 #btn1,#btn2, #btn3{
     margin-left: 5px;
@@ -13,9 +13,14 @@
     margin-bottom: 5px;
 }
 #form2{
-    border: 2px solid grey;
+    border: 2px solid ;
     margin-bottom: 5px;
     margin-top: 5px;
+
+}
+#table{
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 
